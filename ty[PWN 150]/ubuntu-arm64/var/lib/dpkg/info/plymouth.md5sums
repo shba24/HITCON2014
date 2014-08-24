@@ -1,0 +1,15 @@
+de47ed2e65f5150b6bae745b4a218125  bin/plymouth
+12175d969b2847161eee9d7887e6a025  bin/plymouth-upstart-bridge
+de6520cc2273acbf759a427cee7a875d  lib/aarch64-linux-gnu/plymouth/details.so
+482371c367821c65b9b682e78dd63164  lib/aarch64-linux-gnu/plymouth/renderers/drm.so
+1d28b1bdf03220c9862b61cda460eeba  lib/aarch64-linux-gnu/plymouth/renderers/frame-buffer.so
+221fdbb5c367f94acb4e003e02fb4f36  lib/aarch64-linux-gnu/plymouth/script.so
+3b47ede8c1017c0945bfdce42f7f4563  lib/plymouth/themes/details/details.plymouth
+19689f6a286954c32c20ed8ec5a7f94e  lib/plymouth/ubuntu_logo.png
+a326c482a9d961e9c24ddfc245d35685  sbin/plymouthd
+0519c2e6ce5c00ba1b914793ff397e02  usr/share/doc/plymouth/README.Debian
+0743942d87011749494473318f56bb12  usr/share/doc/plymouth/copyright
+89bcae4c78556fca654f145e78a0b855  usr/share/initramfs-tools/hooks/plymouth
+d9ffe31f9efb9c91000a849dd4c1eded  usr/share/initramfs-tools/scripts/init-bottom/plymouth
+c6126bd0a1ee07ce4c5746585939e64f  usr/share/initramfs-tools/scripts/init-top/plymouth
+e14d23ba0997bcf4486ba2784ce593d7  usr/share/initramfs-tools/scripts/panic/plymouth

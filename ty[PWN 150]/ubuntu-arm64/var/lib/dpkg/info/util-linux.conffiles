@@ -1,0 +1,3 @@
+/etc/init/hwclock-save.conf
+/etc/init/hwclock.conf
+/etc/cron.weekly/fstrim

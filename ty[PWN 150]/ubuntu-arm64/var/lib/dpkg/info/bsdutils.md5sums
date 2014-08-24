@@ -1,0 +1,14 @@
+5d26705525bbf8569cacd2225cfced08  usr/bin/logger
+5507e1ac6edee5ace5f523f297ae963e  usr/bin/renice
+7aac076241adcdec71bf5aed886f0aa7  usr/bin/script
+ad5969d08dbacf3db07b5c394b00d112  usr/bin/scriptreplay
+f492b5b5281e3733a9ddc17a04b26fd5  usr/bin/wall
+e1b67604fd96236c1ba68bab6a4e2182  usr/share/doc/bsdutils/README.script
+78a64f6e4cbfe17f5ebc3250187b533e  usr/share/doc/bsdutils/changelog.Debian.gz
+49beacb15b769895d680b900b45c45f6  usr/share/doc/bsdutils/copyright
+65e463f7d3cd92816fc7b65193f59de8  usr/share/lintian/overrides/bsdutils
+fe53ecca6f225343d84ab36190b62420  usr/share/man/man1/logger.1.gz
+ae50288f0ff613becbe6d40c657cd637  usr/share/man/man1/renice.1.gz
+1ca66ad34f6f705f01b73e2311093a8f  usr/share/man/man1/script.1.gz
+2faa275f0990a45b8d5943ef40b7e610  usr/share/man/man1/scriptreplay.1.gz
+39f1c53ef65aa00338966a66dc58ac67  usr/share/man/man1/wall.1.gz

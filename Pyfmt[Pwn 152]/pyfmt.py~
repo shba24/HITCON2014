@@ -1,0 +1,33 @@
+#!/usr/bin/python -u
+
+import os
+import ctypes
+import sys
+import code
+
+
+inspect_flag = 321 
+if __name__ == '__main__':
+
+	
+	c = ctypes.CDLL("libc.so.6")
+	c.printf("hello world!\n")
+	c.printf("who are U?\n")
+	name = os.sys.stdin.readline()
+
+	_len = len(name)
+
+	_f = open('/proc/self/mem','r+')
+	_f.seek(0x7ffffffff000-_len)
+	_f.write(name.strip())
+	_f.close()
+
+	name = "hi! " + name + "bye!\n"
+	c.printf(name)
+
+if inspect_flag >321 :
+	vars = globals().copy()
+	vars.update(locals())
+	shell = code.InteractiveConsole(vars)
+	shell.interact()
+

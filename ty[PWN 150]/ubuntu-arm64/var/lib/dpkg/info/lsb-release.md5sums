@@ -1,0 +1,8 @@
+6b28a645e2502966f8f3e77488e35724  usr/bin/lsb_release
+ca36c8eb648df177838ee4e083899bcc  usr/lib/python2.7/dist-packages/lsb_release.py
+ca36c8eb648df177838ee4e083899bcc  usr/lib/python3/dist-packages/lsb_release.py
+a8241cfcd1e08d8b1cc5fa700747646a  usr/share/bug/lsb-release
+27adc91abecd910d09c39235d88935b4  usr/share/doc/lsb-release/README.Debian
+8c10811bd6b80db65d2cb78ab0b24543  usr/share/doc/lsb-release/changelog.gz
+374e35ead7d93e8ebd2b3fad9abcbae1  usr/share/doc/lsb-release/copyright
+827354bf612b0ab2158e4fbd985bbb91  usr/share/man/man1/lsb_release.1.gz

@@ -1,0 +1,4 @@
+Set up a Qemu armv8 Box:
+- Configure and compile Qemu with ./configure --target-list=aarch64-softmmu && make
+- $ wget http://people.linaro.org/~alex.bennee/images/aarch64-linux-3.16-buildroot-gdb.img
+==> ./aarch64-softmmu/qemu-system-aarch64 -machine virt -cpu cortex-a57 -machine type=virt -nographic -smp 1 -m 2048 -kernel aarch64-linux-3.16-buildroot-gdb.img --append "console=ttyAMA0" -fsdev local,id=r,path=/root/CTF/Hitcon14/ubuntu-arm64,security_model=none -device virtio-9p-device,fsdev=r,mount_tag=r

